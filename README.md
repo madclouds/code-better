@@ -24,6 +24,8 @@ Use structs as much as possible, but classes when you need reference or inherita
 - Collection protocol: A sequence whose elements can be traversed multiple times, nondestructively, and accessed by an indexed subscript (inherits from Sequence)
 - Bidirectional Collection:  A collection that supports backward as well as forward traversal.
 - Other Protocols
+- Optionals - it's just an enum with case some or none.
+
 
 Iterators
 
