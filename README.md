@@ -33,4 +33,6 @@ After talking with my manager, we've talked about different ways for me to impro
 - Use Firebase stuff more
 - Convert internal Objective C frameworks into Swift
 - Take courses
-- Read Books
+- Read Books/Tutorials
+- Write Test!
+- Watch YouTube Videos
