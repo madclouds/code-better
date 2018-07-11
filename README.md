@@ -26,6 +26,7 @@ Use structs as much as possible, but classes when you need reference or inherita
 - Other Protocols
 - Optionals - it's just an enum with case some or none.
 - Error Handling!
+- Generics 
 
 
 Iterators
@@ -87,3 +88,8 @@ After talking with my manager, we've talked about different ways for me to impro
 - React Native
 
 #### External Frameworks I want to learn
+- Snail:  https://github.com/UrbanCompass/Snail/
+- SnapKit: https://github.com/SnapKit/SnapKit
+- Realm: https://github.com/realm/realm-cocoa
+- Firebase: https://firebase.google.com/docs/storage/ios/start
+- Alamoefire: https://github.com/Alamofire/Alamofire
