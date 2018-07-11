@@ -71,13 +71,13 @@ After talking with my manager, we've talked about different ways for me to impro
 - Document Store
 - PCOKit
 - PCOCocoa
- - Network Cache
- - Loper
- - Socket Rocket
- - Open Sky Operation
- - Planning Center Auth
- - MCT Object Store
- - MCT JSON
+  - Network Cache
+  - Loper
+  - Socket Rocket
+  - Open Sky Operation
+  - Planning Center Auth
+  - MCT Object Store
+  - MCT JSON
 
 #### 3rd Party Frameworks We Use
 - Zendesk
