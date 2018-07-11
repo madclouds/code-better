@@ -25,6 +25,7 @@ Use structs as much as possible, but classes when you need reference or inherita
 - Bidirectional Collection:  A collection that supports backward as well as forward traversal.
 - Other Protocols
 - Optionals - it's just an enum with case some or none.
+- Error Handling!
 
 
 Iterators
@@ -54,3 +55,35 @@ After talking with my manager, we've talked about different ways for me to impro
 #### General Notes
 - Set Algebra: Subtraction, Intersection, Union.  
 - NSSet is like a dictionary without values.
+- Options... `if let`, `??` ! `!`
+
+#### Internal Frameworks I want to learn more about
+- Whats New
+- TubePlayer
+- Planning Center Cache
+- Random Image
+- Upload Service
+- Plannin Center Router
+- Audio Player Cache
+- MCT Audio Player
+- Alert View
+- Services Sidebar
+- Document Store
+- PCOKit
+- PCOCocoa
+ - Network Cache
+ - Loper
+ - Socket Rocket
+ - Open Sky Operation
+ - Planning Center Auth
+ - MCT Object Store
+ - MCT JSON
+
+#### 3rd Party Frameworks We Use
+- Zendesk
+- 1Password
+- Fabric
+- Crashlytics
+- React Native
+
+#### External Frameworks I want to learn
