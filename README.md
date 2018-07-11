@@ -40,4 +40,4 @@ After talking with my manager, we've talked about different ways for me to impro
 
 #### General Notes
 - Set Algebra: Subtraction, Intersection, Union.  
--NSSet is like a dictionary without values.
+- NSSet is like a dictionary without values.
