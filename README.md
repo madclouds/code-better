@@ -36,3 +36,8 @@ After talking with my manager, we've talked about different ways for me to impro
 - Read Books/Tutorials
 - Write Test!
 - Watch YouTube Videos
+
+
+#### General Notes
+- Set Algebra: Subtraction, Intersection, Union.  
+-NSSet is like a dictionary without values.
