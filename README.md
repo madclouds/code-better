@@ -51,6 +51,70 @@ After talking with my manager, we've talked about different ways for me to impro
 - Read Books/Tutorials
 - Write Test!
 - Watch YouTube Videos
+- Watch WWDC Videos
+  - https://developer.apple.com/videos/wwdc2018/
+  - https://developer.apple.com/videos/wwdc2017/
+  - https://developer.apple.com/videos/wwdc2016/
+  - https://developer.apple.com/videos/wwdc2015/
+
+
+### Specific WWDC Videos I want to watch: ✅
+
+
+##### 2013
+- https://developer.apple.com/videos/play/wwdc2013/502/  Introduction to Sprite Kit
+- https://developer.apple.com/videos/play/wwdc2013/404/  Advances in Objective-C
+
+
+##### 2014
+- https://developer.apple.com/videos/play/wwdc2014/228/  A Look Inside Presentation Controllers
+- https://developer.apple.com/videos/play/wwdc2014/229/  Advanced iOS Application Architecture and Patterns
+- https://developer.apple.com/videos/play/wwdc2014/236/  Building Interruptible and Responsive Interactions
+- https://developer.apple.com/videos/play/wwdc2014/224/  Core iOS Application Architectural Patterns
+- https://developer.apple.com/videos/play/wwdc2014/416/  Building Modern Frameworks
+- https://developer.apple.com/videos/play/wwdc2014/406/  Integrating Swift with Objective-C
+
+
+##### 2015
+- https://developer.apple.com/videos/play/wwdc2015/401/  Swift and Objective-C Interoperability
+- https://developer.apple.com/videos/play/wwdc2015/408/  Protocol-Oriented Programming in Swift
+- https://developer.apple.com/videos/play/wwdc2015/231/  Cocoa Touch Best Practices
+- https://developer.apple.com/videos/play/wwdc2015/218/  Mysteries of Auto Layout, Part 1
+- https://developer.apple.com/videos/play/wwdc2015/219/  Mysteries of Auto Layout, Part 2
+- https://developer.apple.com/videos/play/wwdc2015/202/  What's New in Cocoa
+- https://developer.apple.com/videos/play/wwdc2015/405/  Authoring Rich Playgrounds
+- https://developer.apple.com/videos/play/wwdc2015/403/  Improving Your Existing Apps with Swift
+- https://developer.apple.com/videos/play/wwdc2015/711/  Networking with NSURLSession
+
+##### 2016
+- https://developer.apple.com/videos/play/wwdc2016/216/  Advances in UIKit Animations and Transitions
+- https://developer.apple.com/videos/play/wwdc2016/225/  Extending Your Apps with SiriKit
+- https://developer.apple.com/videos/play/wwdc2016/213/  Improving Existing Apps with Modern Best Practices
+- https://developer.apple.com/videos/play/wwdc2016/236/  What's New in Auto Layout
+- https://developer.apple.com/videos/play/wwdc2016/205/  What's New in Cocoa Touch
+- https://developer.apple.com/videos/play/wwdc2016/419/  Protocol and Value Oriented Programming in UIKit Apps
+- https://developer.apple.com/videos/play/wwdc2016/720/  Concurrent Programming With GCD in Swift 3
+- https://developer.apple.com/videos/play/wwdc2016/705/  How iOS Security Really Works
+- https://developer.apple.com/videos/play/wwdc2016/714/  Networking for the Modern Internet
+
+##### 2017
+- https://developer.apple.com/videos/play/wwdc2017/244/  Efficient Interactions with Frameworks
+- https://developer.apple.com/videos/play/wwdc2017/414/  Engineering for Testability
+- https://developer.apple.com/videos/play/wwdc2017/706/  Modernizing Grand Central Dispatch Usage
+- https://developer.apple.com/videos/play/wwdc2017/416/  Teaching with Swift Playgrounds
+- https://developer.apple.com/videos/play/wwdc2017/212/  What's New in Foundation
+- https://developer.apple.com/videos/play/wwdc2017/818/  60 Second Prototyping
+- https://developer.apple.com/videos/play/wwdc2017/230/  Advanced Animations with UIKit 
+
+##### 2018
+- https://developer.apple.com/videos/play/wwdc2018/402/  Getting the Most out of Playgrounds in Xcode
+- https://developer.apple.com/videos/play/wwdc2018/223/  Embracing Algorithms
+- https://developer.apple.com/videos/play/wwdc2018/406/  Swift Generics
+- https://developer.apple.com/videos/play/wwdc2018/214/  Building for Voice with Siri Shortcuts
+- https://developer.apple.com/videos/play/wwdc2018/220/  High Performance Auto Layout
+- https://developer.apple.com/videos/play/wwdc2018/215/  Introducing ClassKit
+- https://developer.apple.com/videos/play/wwdc2018/211/  Introduction to Siri Shortcuts
+- https://developer.apple.com/videos/play/wwdc2018/235/  UIKit: Apps for Every Size and Shape
 
 
 #### General Notes
