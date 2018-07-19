@@ -63,7 +63,15 @@ After talking with my manager, we've talked about different ways for me to impro
 
 ##### 2013
 - https://developer.apple.com/videos/play/wwdc2013/502/  Introduction to Sprite Kit
-- https://developer.apple.com/videos/play/wwdc2013/404/  Advances in Objective-C
+- https://developer.apple.com/videos/play/wwdc2013/404/  ✅ Advances in Objective-C  
+  - `#import` > Copy/paste text headers into .m files
+  - `@import` > Imports module (which encapsulates a framework and is compiled separately)  Imports the API - Semantic import (doesn't need to parse headers.  Local macro definitions have no effect on framework API)
+  - Submodules `@import iAd.ADBannerView;`  Similar to `#import <iAd/ADBannerView.h>`
+  - Autolinking.  No need to manuallly "link binary with libraries" (I don't get this yet)
+  - Xcode Automatically changes #import into @import now...  No code changes needed
+  - how's it work?  Module Maps > Establish relationship between headers and modules.  Modules are cached in derived data.  Next time you import a module, it is already there.
+  - `instancetype` vs `id` - A contextual keyword, only for return types.  Subclasses do not need to redeclare instance type methods.  The compiler contextually matches the return type to the receiver
+  - Enums are/were essentailly global integers 
 
 
 ##### 2014
