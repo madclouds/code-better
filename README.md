@@ -58,7 +58,7 @@ After talking with my manager, we've talked about different ways for me to impro
   - https://developer.apple.com/videos/wwdc2015/
 
 
-### Specific WWDC Videos I want to watch: ✅
+### Specific WWDC Videos I want to watch: ✅ == watched
 
 
 ##### 2013
