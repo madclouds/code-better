@@ -133,14 +133,16 @@ After talking with my manager, we've talked about different ways for me to impro
         - Represents showing items that you index in spotlight search of for handoff.
         - you use use this for lots of activities in your app so siri can offer better suggestions
         - Example:
-          ```let activity = NSUserActivity(activityType: "com.AppCoda.SiriSortcuts.sayHi") // 1
+          ```
+          let activity = NSUserActivity(activityType: "com.AppCoda.SiriSortcuts.sayHi") // 1
         activity.title = "Say Hi" // 2
         activity.userInfo = ["speech" : "hi"] // 3
         activity.isEligibleForSearch = true // 4
         activity.isEligibleForPrediction = true // 5
         activity.persistentIdentifier = NSUserActivityPersistentIdentifier(rawValue: "com.AppCoda.SiriSortcuts.sayHi") // 6
         view.userActivity = activity // 7
-        activity.becomeCurrent() // 8```
+        activity.becomeCurrent() // 8
+        ```
       - Intents.  Siri has built in intents.  Custom intents!
   - Donate shortcut tell system every time the user does something in your app that you expose a shortcut for.  Lets siri learn when and where is the right time to sugest your shortcut.
   - Handle shortcut when the user wants to use your shortcut, you need to be ready for your app or app extension to handle
