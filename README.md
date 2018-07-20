@@ -104,6 +104,7 @@ After talking with my manager, we've talked about different ways for me to impro
 - https://developer.apple.com/videos/play/wwdc2016/720/  Concurrent Programming With GCD in Swift 3
 - https://developer.apple.com/videos/play/wwdc2016/705/  How iOS Security Really Works
 - https://developer.apple.com/videos/play/wwdc2016/714/  Networking for the Modern Internet
+- https://developer.apple.com/videos/play/wwdc2016/240/  Increase Usage of Your App With Proactive Suggestions
 
 ##### 2017
 - https://developer.apple.com/videos/play/wwdc2017/244/  Efficient Interactions with Frameworks
@@ -121,7 +122,28 @@ After talking with my manager, we've talked about different ways for me to impro
 - https://developer.apple.com/videos/play/wwdc2018/214/  Building for Voice with Siri Shortcuts
 - https://developer.apple.com/videos/play/wwdc2018/220/  High Performance Auto Layout
 - https://developer.apple.com/videos/play/wwdc2018/215/  Introducing ClassKit
-- https://developer.apple.com/videos/play/wwdc2018/211/  Introduction to Siri Shortcuts
+- https://developer.apple.com/videos/play/wwdc2018/211/  ✅ Introduction to Siri Shortcuts
+  - Define a shortcut for each action you want
+    - Accelerate user to perform a key function of your app
+    - Be of persistant interest to the user.  The user might want to do multiple times
+    - Be executable at any time.  No state!
+    - 2 APIs for supporting shortcuts:
+      - NSUserActivity is a light weight way to let siri know
+        - Opens something in your app
+        - Represents showing items that you index in spotlight search of for handoff.
+        - you use use this for lots of activities in your app so siri can offer better suggestions
+        - Example:
+          ```let activity = NSUserActivity(activityType: "com.AppCoda.SiriSortcuts.sayHi") // 1
+        activity.title = "Say Hi" // 2
+        activity.userInfo = ["speech" : "hi"] // 3
+        activity.isEligibleForSearch = true // 4
+        activity.isEligibleForPrediction = true // 5
+        activity.persistentIdentifier = NSUserActivityPersistentIdentifier(rawValue: "com.AppCoda.SiriSortcuts.sayHi") // 6
+        view.userActivity = activity // 7
+        activity.becomeCurrent() // 8```
+      - Intents.  Siri has built in intents.  Custom intents!
+  - Donate shortcut tell system every time the user does something in your app that you expose a shortcut for.  Lets siri learn when and where is the right time to sugest your shortcut.
+  - Handle shortcut when the user wants to use your shortcut, you need to be ready for your app or app extension to handle
 - https://developer.apple.com/videos/play/wwdc2018/235/  UIKit: Apps for Every Size and Shape
 
 
