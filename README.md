@@ -145,6 +145,7 @@ After talking with my manager, we've talked about different ways for me to impro
           ```
       - Intents.  Siri has built in intents.  Custom intents!
   - Donate shortcut tell system every time the user does something in your app that you expose a shortcut for.  Lets siri learn when and where is the right time to sugest your shortcut.
+    - Turn on debugging by going to Settings > Developer and enable `Display Recent Shortcuts` and `Display Donations on Lock Screen`
   - Handle shortcut when the user wants to use your shortcut, you need to be ready for your app or app extension to handle
 - https://developer.apple.com/videos/play/wwdc2018/235/  UIKit: Apps for Every Size and Shape
 
