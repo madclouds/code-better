@@ -200,3 +200,6 @@ After talking with my manager, we've talked about different ways for me to impro
 #### Security
 - https://developer.apple.com/library/archive/documentation/Security/Conceptual/SecureCodingGuide/Introduction.html
 - https://stackoverflow.com/questions/9448632/best-practices-for-ios-applications-security
+
+#### More frameworks to review:
+- https://github.com/matteocrippa/awesome-swift
