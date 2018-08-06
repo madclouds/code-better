@@ -27,9 +27,7 @@ Use structs as much as possible, but classes when you need reference or inherita
 - Optionals - it's just an enum with case some or none.
 - Error Handling!
 - Generics 
-
-
-Iterators
+- Iterators
 
 After talking with my manager, we've talked about different ways for me to improve my development skillsets on my own.  Here are some of our ideas:
 ### Ideas for learning
@@ -77,6 +75,14 @@ After talking with my manager, we've talked about different ways for me to impro
 ##### 2014
 - https://developer.apple.com/videos/play/wwdc2014/228/  A Look Inside Presentation Controllers
 - https://developer.apple.com/videos/play/wwdc2014/229/  Advanced iOS Application Architecture and Patterns
+  - Design Information Flow (rather than letting it grow adhoc like a weed).
+    - Where is "truth"?
+    - Truth vs. derived values (like a cache and should be treated as such)
+    - When new truth is created the relationship is asymetical. 
+  - Define clear responsibilities 
+    - dont duplicate code....... great advice...
+  - Simplify with immutability
+    - skipped over this part
 - https://developer.apple.com/videos/play/wwdc2014/236/  Building Interruptible and Responsive Interactions
 - https://developer.apple.com/videos/play/wwdc2014/224/  Core iOS Application Architectural Patterns
 - https://developer.apple.com/videos/play/wwdc2014/416/  Building Modern Frameworks
@@ -190,3 +196,7 @@ After talking with my manager, we've talked about different ways for me to impro
 - Realm: https://github.com/realm/realm-cocoa
 - Firebase: https://firebase.google.com/docs/storage/ios/start
 - Alamoefire: https://github.com/Alamofire/Alamofire
+
+#### Security
+- https://developer.apple.com/library/archive/documentation/Security/Conceptual/SecureCodingGuide/Introduction.html
+- https://stackoverflow.com/questions/9448632/best-practices-for-ios-applications-security
