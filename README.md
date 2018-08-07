@@ -161,7 +161,7 @@ After talking with my manager, we've talked about different ways for me to impro
 - NSSet is like a dictionary without values.
 - Options... `if let`, `??` ! `!`
 
-#### Internal Frameworks I want to learn more about
+#### Internal Frameworks
 - Whats New
 - TubePlayer
 - Planning Center Cache
@@ -183,19 +183,22 @@ After talking with my manager, we've talked about different ways for me to impro
   - MCT Object Store
   - MCT JSON
 
-#### 3rd Party Frameworks We Use
+#### 3rd Party Frameworks in PC
 - Zendesk
 - 1Password
 - Fabric
 - Crashlytics
 - React Native
 
-#### External Frameworks I want to learn
+#### External Frameworks
 - Snail:  https://github.com/UrbanCompass/Snail/
 - SnapKit: https://github.com/SnapKit/SnapKit
 - Realm: https://github.com/realm/realm-cocoa
 - Firebase: https://firebase.google.com/docs/storage/ios/start
 - Alamoefire: https://github.com/Alamofire/Alamofire
+
+#### Apple Framework
+- https://developer.apple.com/documentation
 
 #### Security
 - https://developer.apple.com/library/archive/documentation/Security/Conceptual/SecureCodingGuide/Introduction.html
