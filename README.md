@@ -216,4 +216,7 @@ After talking with my manager, we've talked about different ways for me to impro
 #### 11/16 @11am notes:
 - Went throught frameworks at a high level.  Talked about core data.  Worked through an "offline" bug (https://trello.com/c/O4Bkmgsf/2448-478588-app-goes-offline-when-using-cell-data) together. started looking into the largest crash on fabric (http://crashes.to/s/0296d3aee8f).
 - How do we get a nice pretty stack trace like Fabric in xcode?
-- 
+
+
+## Notes for next Mentorship
+- Talk about sidebar blockout data grouping `NSArray <NSArray<PCOBlockout *> *> *blockouts`
