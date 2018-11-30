@@ -122,7 +122,8 @@ After talking with my manager, we've talked about different ways for me to impro
 - https://developer.apple.com/videos/play/wwdc2017/706/  Modernizing Grand Central Dispatch Usage
 - https://developer.apple.com/videos/play/wwdc2017/416/  Teaching with Swift Playgrounds
 - https://developer.apple.com/videos/play/wwdc2017/212/  What's New in Foundation
-- https://developer.apple.com/videos/play/wwdc2017/818/  60 Second Prototyping
+- https://developer.apple.com/videos/play/wwdc2017/818/  ✅ 60 Second Prototyping
+  - Use Keynote to prototype interactive apps.  Iterate fast to explore ideas and interactions. Neat.
 - https://developer.apple.com/videos/play/wwdc2017/230/  Advanced Animations with UIKit 
 
 ##### 2018
