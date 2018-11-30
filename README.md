@@ -219,4 +219,7 @@ After talking with my manager, we've talked about different ways for me to impro
 
 
 ## Notes for next Mentorship
-- Talk about sidebar blockout data grouping `NSArray <NSArray<PCOBlockout *> *> *blockouts`
+- ~~Talk about sidebar blockout data grouping `NSArray <NSArray<PCOBlockout *> *> *blockouts`~~ Used a NSFetchedResultsController with a `sectionNameKeyPath`
+- Talk about code compilation process.  Talk about what happens when you hit command+B, and when you archive.
+- Talk about schedule conflicts and how to keep them out of the database, and use them in memory only. (check `BlockoutDeclineExistingPlansPickerController`)
+- Review JSON mapping and Core Data interactions.  Talk about API call.
