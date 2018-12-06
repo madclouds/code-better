@@ -8,10 +8,6 @@ Mostly this is for iOS development, but who knows what else will be in here.
 
 I've been watching some videos from Sean Allen: https://www.youtube.com/channel/UCbTw29mcP12YlTt1EpUaVJw
 
-## Mentor Stuffs
-- `PCOServicesCoreDataStack.m` uses `+ (BOOL)prepareCoreDataStack:(NSError **)error`.  What's the double `**` about.  I know `&error` is a reference pointer, but I don't know what `**` is.  Answer:  ** is a pointer to a pointer. Since functions in C take arguments by value, it means you can't change the value of the argument in that function. But, by providing a level of indirection and passing a pointer to the pointer, you can change the value.
-
-
 ### Structs vs Classes
 - https://developer.apple.com/documentation/swift/choosing_between_structures_and_classes
 Use structs as much as possible, but classes when you need reference or inheritance.
@@ -224,3 +220,8 @@ After talking with my manager, we've talked about different ways for me to impro
 - Talk about code compilation process.  Talk about what happens when you hit command+B, and when you archive.
 - Talk about schedule conflicts and how to keep them out of the database, and use them in memory only. (check `BlockoutDeclineExistingPlansPickerController`)
 - Review JSON mapping and Core Data interactions.  Talk about API call.
+- Write more swift!
+
+
+## Mentor Stuffs
+- `PCOServicesCoreDataStack.m` uses `+ (BOOL)prepareCoreDataStack:(NSError **)error`.  What's the double `**` about.  I know `&error` is a reference pointer, but I don't know what `**` is.  Answer:  ** is a pointer to a pointer. Since functions in C take arguments by value, it means you can't change the value of the argument in that function. But, by providing a level of indirection and passing a pointer to the pointer, you can change the value.
