@@ -225,3 +225,9 @@ After talking with my manager, we've talked about different ways for me to impro
 
 ## Mentor Stuffs
 - `PCOServicesCoreDataStack.m` uses `+ (BOOL)prepareCoreDataStack:(NSError **)error`.  What's the double `**` about.  I know `&error` is a reference pointer, but I don't know what `**` is.  Answer:  ** is a pointer to a pointer. Since functions in C take arguments by value, it means you can't change the value of the argument in that function. But, by providing a level of indirection and passing a pointer to the pointer, you can change the value.
+
+
+## Mentor notes from 12/6
+- Talked about writing swift in services with new controllers.  and use snapkit maybe for swift stuff.
+- Try talking about implementation strategy with James before working on another big task.
+
