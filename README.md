@@ -231,3 +231,17 @@ After talking with my manager, we've talked about different ways for me to impro
 - Talked about writing swift in services with new controllers.  and use snapkit maybe for swift stuff.
 - Try talking about implementation strategy with James before working on another big task.
 
+## Questions for next session
+- Review where state should be held for Household Filters (Notes in notebook)
+### Talk about different
+- Imparative programming
+- Functional programming
+- Object Oriented programming
+- Inheritance-based programming
+- Prototytpe-based programming
+- Declarative programming
+
+^ Relevant https://flutter.io/docs/resources/faq#what-programming-paradigm-does-flutters-framework-use
+
+- Find a video to watch and discuss next time.
+
