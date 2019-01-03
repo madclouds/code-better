@@ -125,6 +125,9 @@ After talking with my manager, we've talked about different ways for me to impro
 ##### 2018
 - https://developer.apple.com/videos/play/wwdc2018/402/  Getting the Most out of Playgrounds in Xcode
 - https://developer.apple.com/videos/play/wwdc2018/223/  Embracing Algorithms
+  - Talks about different collection methods
+  - Talked about different protocols
+  
 - https://developer.apple.com/videos/play/wwdc2018/406/  Swift Generics
 - https://developer.apple.com/videos/play/wwdc2018/214/  Building for Voice with Siri Shortcuts
 - https://developer.apple.com/videos/play/wwdc2018/220/  High Performance Auto Layout
@@ -244,4 +247,17 @@ After talking with my manager, we've talked about different ways for me to impro
 ^ Relevant https://flutter.io/docs/resources/faq#what-programming-paradigm-does-flutters-framework-use
 
 - Find a video to watch and discuss next time.
+
+#### 1/2/2019 notes:
+Got together to talk about blockout conflict implementation strategy found here: https://gist.github.com/madclouds/47e6edc3666cf963b73bbdc5f5e8ecf4
+
+#### 1/3/2019 notes:
+Watched video together - Embracing Algorithms - https://developer.apple.com/videos/play/wwdc2018/223/  
+Learned about tripple slashes in Xcode `///` for documentation that's included in `.swiftdoc` and displayed within xcode.
+Look through swift guides
+Looked at big O notation and talked about the different complexities
+
+#### 1/4/2019 notes:
+
+
 
