@@ -262,6 +262,10 @@ Looked at big O notation and talked about the different complexities
 - get rebase
 - automated Test Flight build from github merge?
 
+#### Unit Testing
+- Wrote some tests for MCTJSON JSONHelper class
+- Write tests for any public interfaces!
+
 
 
 
