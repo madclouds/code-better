@@ -266,6 +266,9 @@ Looked at big O notation and talked about the different complexities
 - Wrote some tests for MCTJSON JSONHelper class
 - Write tests for any public interfaces!
 
+#### Swift
+- Any new file should be written in Swift
+
 
 
 
