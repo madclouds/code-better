@@ -257,7 +257,11 @@ Learned about tripple slashes in Xcode `///` for documentation that's included i
 Look through swift guides
 Looked at big O notation and talked about the different complexities
 
-#### 1/4/2019 notes:
+#### Questions for next meeting:
+- how often to git commit
+- get rebase
+- automated Test Flight build from github merge?
+
 
 
 
