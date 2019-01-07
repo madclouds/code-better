@@ -262,10 +262,11 @@ Looked at big O notation and talked about the different complexities
 - get rebase
 - automated Test Flight build from github merge?
 
-#### Unit Testing
+##### Unit Testing
 - Wrote some tests for MCTJSON JSONHelper class
 - Write tests for any public interfaces!
-
+##### Task to work on together
+- What's the correct way to disable 
 #### Swift
 - Any new file should be written in Swift
 
