@@ -262,15 +262,15 @@ Looked at big O notation and talked about the different complexities
 - get rebase
 - automated Test Flight build from github merge?
 - GCC?  ([GNU Compiler Collection](https://gcc.gnu.org/onlinedocs/gcc/G_002b_002b-and-GCC.html#G_002b_002b-and-GCC)) 
+- `__unused` and `_Nullable` and other property identifiers - instead of `#pragma unused(param)`
 
 ##### Unit Testing
 - Wrote some tests for MCTJSON JSONHelper class
 - Write tests for any public interfaces!
 ##### Task to work on together
-- What's the correct way to disable 
+- What's the correct way to disable the header highlight in on a dashboard card based on data. (just an exercise)
 #### Swift
 - Any new file should be written in Swift
-- `__unused` and `_Nullable` and other property identifiers - instead of `#pragma unused(param)`
 
 ```[self.orderedHouseholdMembers filteredArrayUsingPredicate:[NSPredicate predicateWithBlock:^BOOL(id  _Nullable evaluatedObject, __unused NSDictionary<NSString *,id> * _Nullable bindings) {```
 
