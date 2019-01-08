@@ -269,7 +269,8 @@ Looked at big O notation and talked about the different complexities
 - What's the correct way to disable 
 #### Swift
 - Any new file should be written in Swift
-
+- `__unused` and `_Nullable` and other property identifiers.
+```[self.orderedHouseholdMembers filteredArrayUsingPredicate:[NSPredicate predicateWithBlock:^BOOL(id  _Nullable evaluatedObject, __unused NSDictionary<NSString *,id> * _Nullable bindings) {```
 
 
 
