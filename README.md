@@ -261,6 +261,7 @@ Looked at big O notation and talked about the different complexities
 - how often to git commit
 - get rebase
 - automated Test Flight build from github merge?
+- GCC?  ([GNU Compiler Collection](https://gcc.gnu.org/onlinedocs/gcc/G_002b_002b-and-GCC.html#G_002b_002b-and-GCC)) 
 
 ##### Unit Testing
 - Wrote some tests for MCTJSON JSONHelper class
@@ -269,8 +270,10 @@ Looked at big O notation and talked about the different complexities
 - What's the correct way to disable 
 #### Swift
 - Any new file should be written in Swift
-- `__unused` and `_Nullable` and other property identifiers.
+- `__unused` and `_Nullable` and other property identifiers - instead of `#pragma unused(param)`
+
 ```[self.orderedHouseholdMembers filteredArrayUsingPredicate:[NSPredicate predicateWithBlock:^BOOL(id  _Nullable evaluatedObject, __unused NSDictionary<NSString *,id> * _Nullable bindings) {```
+
 
 
 
