@@ -260,8 +260,10 @@ Looked at big O notation and talked about the different complexities
 #### Questions for next meeting:
 - how often to git commit
 - get rebase
-- automated Test Flight build from github merge?
+- automated Test Flight build from github merge? - See if I can use CircleCI to automate build and deploy to Test Flight.  Search what other options are avaiable - git commit message checks the git message for a trigger words.
+
 - GCC?  ([GNU Compiler Collection](https://gcc.gnu.org/onlinedocs/gcc/G_002b_002b-and-GCC.html#G_002b_002b-and-GCC)) 
+    - https://useyourloaf.com/blog/compiler-options-in-xcode-gcc-or-llvm/
 - `__unused` and `_Nullable` and other property identifiers - instead of `#pragma unused(param)`
 
 ##### Unit Testing
