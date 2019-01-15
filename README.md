@@ -277,5 +277,7 @@ Looked at big O notation and talked about the different complexities
 ```[self.orderedHouseholdMembers filteredArrayUsingPredicate:[NSPredicate predicateWithBlock:^BOOL(id  _Nullable evaluatedObject, __unused NSDictionary<NSString *,id> * _Nullable bindings) {```
 
 
+Try Fastlane for build automation.
+https://docs.fastlane.tools/getting-started/ios/beta-deployment/
 
 
