@@ -280,4 +280,7 @@ Looked at big O notation and talked about the different complexities
 Try Fastlane for build automation.
 https://docs.fastlane.tools/getting-started/ios/beta-deployment/
 
+`NS` namespace belongs to NextStep, a company Apple bought and based MacOS/iOS on.  Example `NSObject`.
+Start watching Core Data course:  https://classroom.udacity.com/courses/ud325
+
 
