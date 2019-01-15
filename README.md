@@ -277,10 +277,41 @@ Looked at big O notation and talked about the different complexities
 ```[self.orderedHouseholdMembers filteredArrayUsingPredicate:[NSPredicate predicateWithBlock:^BOOL(id  _Nullable evaluatedObject, __unused NSDictionary<NSString *,id> * _Nullable bindings) {```
 
 
+##### Becoming a better programmer
+https://www.youtube.com/watch?v=85fXs6cQETQ
+Models of learning:  http://pics.pco.bz/fc9ab0f1fb96
+
 Try Fastlane for build automation.
 https://docs.fastlane.tools/getting-started/ios/beta-deployment/
 
 `NS` namespace belongs to NextStep, a company Apple bought and based MacOS/iOS on.  Example `NSObject`.
 Start watching Core Data course:  https://classroom.udacity.com/courses/ud325
 
+##### Course Notes
+- Core Data - Data layer management framework
+  - Data Structure, relationships, changing models and updating UI when models change.
+  - Core Data is a framework/library/bundle of code
+  - referential integrity - Core Data uses two-sided relationships.  Core Data traverses the web of entity class instances (object graph) and makes sure all affected references are updated.
+  - Deleteion Rules:
+    - Cascade: Deleteing a notebook will causes all of the notes to be deleted
+    - Nullify means the relationship will simply be removed, but the referenced notebook remains
+    
+ - Faults - relationships are not immediately loaded. Instead, Core Data has a mechanism called faulting. Faulting allows any attribute or relationship to be in a special state where it is promised to load when needed. When you fetch a managed object, its relationships are initially represented as faults.
+    
+##### Core Data Stack
+- 1 or more Managed Object Context(s)
+  - Scratch pad to edit or update NSManagedObjects or create new ones
+- Managed Object Model
+  - Describes data structure and relationships - `.xcdatamodeld` file
+- Persistent Store Coordinator
+  - Connects to 1 or more persistant stores.  Translates store objects into managed objects, or managed objects into stored objects.
+  - A mediator for turning persisted data into managed objects and turning managed objects into persisted data
+- Persistent Container
+  - set up the rest of stact
+  - provie useful methods for working with contexts
+  
+
+    
+#### Services related Core Data stuff
+    
 
