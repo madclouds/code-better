@@ -332,11 +332,12 @@ Start watching Core Data course:  https://classroom.udacity.com/courses/ud325
       A policy that merges conflicts between the persistent store's version of the object and the current in-memory version by pushing the entire in-memory object to the persistent store.
       NSRollbackMergePolicyType
       A policy that merges conflicts between the persistent store's version of the object and the current in-memory version by discarding all state for the changed objects in conflict.
-      ```
+ ```
       
 - `MCTObjectContext.m` line 291:
 
-```+ (NSDictionary *)defaultPersistentStoreOptions {
+```
++ (NSDictionary *)defaultPersistentStoreOptions {
     return @{
              NSMigratePersistentStoresAutomaticallyOption: @YES,
              NSInferMappingModelAutomaticallyOption: @YES
