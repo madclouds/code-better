@@ -332,7 +332,16 @@ Start watching Core Data course:  https://classroom.udacity.com/courses/ud325
       NSRollbackMergePolicyType
       A policy that merges conflicts between the persistent store's version of the object and the current in-memory version by discarding all state for the changed objects in conflict.```
       
- - `NSPersistentContainer` - https://developer.apple.com/documentation/coredata/nspersistentcontainer?language=objc
+- `MCTObjectContext.m` line 291:
+
+```+ (NSDictionary *)defaultPersistentStoreOptions {
+    return @{
+             NSMigratePersistentStoresAutomaticallyOption: @YES,
+             NSInferMappingModelAutomaticallyOption: @YES
+             };
+}```
+      
+ - `NSPersistentContainer` iOS 10+ only - https://developer.apple.com/documentation/coredata/nspersistentcontainer?language=objc
 
     
 #### Services related Core Data stuff
