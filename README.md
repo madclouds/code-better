@@ -321,7 +321,8 @@ Start watching Core Data course:  https://classroom.udacity.com/courses/ud325
   - `NSPrivateQueueConcurrencyType`: Specifies that the context will be associated with a private dispatch queue
   - `NSMainQueueConcurrencyType`: Specifies that the context will be associated with the main queue.
  - Merge Policies
-  - ```NSErrorMergePolicyType
+  ```
+  NSErrorMergePolicyType
       Default policy for all managed object contexts.
       NSMergeByPropertyStoreTrumpMergePolicyType
       A policy that merges conflicts between the persistent store's version of the object and the current in-memory version by individual property, with the in-memory changes trumping external changes.
@@ -330,7 +331,8 @@ Start watching Core Data course:  https://classroom.udacity.com/courses/ud325
       NSOverwriteMergePolicyType
       A policy that merges conflicts between the persistent store's version of the object and the current in-memory version by pushing the entire in-memory object to the persistent store.
       NSRollbackMergePolicyType
-      A policy that merges conflicts between the persistent store's version of the object and the current in-memory version by discarding all state for the changed objects in conflict.```
+      A policy that merges conflicts between the persistent store's version of the object and the current in-memory version by discarding all state for the changed objects in conflict.
+      ```
       
 - `MCTObjectContext.m` line 291:
 
@@ -339,7 +341,8 @@ Start watching Core Data course:  https://classroom.udacity.com/courses/ud325
              NSMigratePersistentStoresAutomaticallyOption: @YES,
              NSInferMappingModelAutomaticallyOption: @YES
              };
-}```
+}
+```
       
  - `NSPersistentContainer` iOS 10+ only - https://developer.apple.com/documentation/coredata/nspersistentcontainer?language=objc
 
