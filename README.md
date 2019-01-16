@@ -310,8 +310,32 @@ Start watching Core Data course:  https://classroom.udacity.com/courses/ud325
   - set up the rest of stact
   - provie useful methods for working with contexts
   
+- Core data migration.  `.xcmappingmodel`
+  - automatic (light weight) vs custom
+  - custom: subclass `NSEntityMigrationPolicy` and use `createDestinationInstances(forSource sInstance: NSManagedObject, in mapping: NSEntityMapping, manager: NSMigrationManager)`
+  - Services doesn't use a migration/merge policy.  Instead builds the stack from scratch.
+  
+- Concurrency:
+ - main queue vs private queue
+ - Concurrency Types:
+  - `NSPrivateQueueConcurrencyType`: Specifies that the context will be associated with a private dispatch queue
+  - `NSMainQueueConcurrencyType`: Specifies that the context will be associated with the main queue.
+ - Merge Policies
+  - ```NSErrorMergePolicyType
+      Default policy for all managed object contexts.
+      NSMergeByPropertyStoreTrumpMergePolicyType
+      A policy that merges conflicts between the persistent store's version of the object and the current in-memory version by individual property, with the in-memory changes trumping external changes.
+      NSMergeByPropertyObjectTrumpMergePolicyType
+      A policy that merges conflicts between the persistent store's version of the object and the current in-memory version by individual property, with the external changes trumping in-memory changes.
+      NSOverwriteMergePolicyType
+      A policy that merges conflicts between the persistent store's version of the object and the current in-memory version by pushing the entire in-memory object to the persistent store.
+      NSRollbackMergePolicyType
+      A policy that merges conflicts between the persistent store's version of the object and the current in-memory version by discarding all state for the changed objects in conflict.```
+      
+ - `NSPersistentContainer` - https://developer.apple.com/documentation/coredata/nspersistentcontainer?language=objc
 
     
 #### Services related Core Data stuff
+- No Core Data merge policy.  
     
 
