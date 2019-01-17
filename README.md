@@ -346,6 +346,8 @@ Start watching Core Data course:  https://classroom.udacity.com/courses/ud325
 ```
       
  - `NSPersistentContainer` iOS 10+ only - https://developer.apple.com/documentation/coredata/nspersistentcontainer?language=objc
+ 
+ - Let's talk about Faulting!  https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CoreData/FaultingandUniquing.html
 
     
 #### Services related Core Data stuff
