@@ -350,7 +350,8 @@ Start watching Core Data course:  https://classroom.udacity.com/courses/ud325
  - Let's talk about Faulting!  https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CoreData/FaultingandUniquing.html
 
     
-#### Services related Core Data stuff
-- No Core Data merge policy.  
+#### Transpose Quick View add Minor Support
+ Talked with James about how to tackle this card:  https://trello.com/c/l4VQ5jVV
+ Solution: https://gist.github.com/madclouds/8cc11aad8e7dc37660a3e4df515c0a49
     
 
