@@ -359,3 +359,4 @@ Start watching Core Data course:  https://classroom.udacity.com/courses/ud325
 
 Check out this crash report together:  http://crashes.to/s/ac5c41cb64c
 
+Review this together:  https://codesigning.guide/
