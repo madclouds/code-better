@@ -354,4 +354,8 @@ Start watching Core Data course:  https://classroom.udacity.com/courses/ud325
  Talked with James about how to tackle this card:  https://trello.com/c/l4VQ5jVV
  Solution: https://gist.github.com/madclouds/8cc11aad8e7dc37660a3e4df515c0a49
     
+    
+--------
+
+Check out this crash report together:  http://crashes.to/s/ac5c41cb64c
 
