@@ -360,3 +360,45 @@ Start watching Core Data course:  https://classroom.udacity.com/courses/ud325
 Check out this crash report together:  http://crashes.to/s/ac5c41cb64c
 
 Review this together:  https://codesigning.guide/
+
+
+Check out this together:  https://github.com/fastlane/examples
+
+#### Can't get fastlane working for Services
+#### Output:
+
+```
+▸ Signing /Users/erikbye/Library/Developer/Xcode/DerivedData/Services-awpfsigwemreoghcurxsonpypbpz/Build/Intermediates.noindex/ArchiveIntermediates/Services/InstallationBuildProductsLocation/Applications/Services.app
+▸ Touching Services.app.dSYM
+▸ Archive Succeeded
+[16:11:20]: Exit status: 1
+
++---------------+-------------------------+
+|            Build environment            |
++---------------+-------------------------+
+| xcode_path    | /Applications/Xcode.app |
+| gym_version   | 2.115.0                 |
+| export_method | app-store               |
+| sdk           | iPhoneOS12.1.sdk        |
++---------------+-------------------------+
+
+[16:11:20]: ▸ Check dependencies
+[16:11:20]: ▸ Code Signing Error: No profiles for 'com.ministrycentered.PlanningCenter.ServicesSchedule' were found:  Xcode couldn't find any iOS App Development provisioning profiles matching 'com.ministrycentered.PlanningCenter.ServicesSchedule'. Automatic signing is disabled and unable to generate a profile. To enable automatic signing, pass -allowProvisioningUpdates to xcodebuild.
+[16:11:20]: ▸ Swift 3 mode has been deprecated and will be removed in a later version of Xcode. Please migrate "Services Schedule" to Swift 4.2 using "Convert > To Current Swift Syntax…" in the Edit menu.
+[16:11:20]: ▸ Swift 3 mode has been deprecated and will be removed in a later version of Xcode. Please migrate "Services Schedule" to Swift 4.2 using "Convert > To Current Swift Syntax…" in the Edit menu.
+[16:11:20]: ▸ Code Signing Error: Code signing is required for product type 'App Extension' in SDK 'iOS 12.1'
+[16:11:20]: 
+[16:11:20]: ⬆️  Check out the few lines of raw `xcodebuild` output above for potential hints on how to solve this error
+[16:11:20]: 📋  For the complete and more detailed error log, check the full log at:
+[16:11:20]: 📋  /Users/erikbye/Library/Logs/gym/Services-Services.log
+[16:11:20]: 
+[16:11:20]: Looks like fastlane ran into a build/archive error with your project
+[16:11:20]: It's hard to tell what's causing the error, so we wrote some guides on how
+[16:11:20]: to troubleshoot build and signing issues: https://docs.fastlane.tools/codesigning/getting-started/
+[16:11:20]: Before submitting an issue on GitHub, please follow the guide above and make
+[16:11:20]: sure your project is set up correctly.
+[16:11:20]: fastlane uses `xcodebuild` commands to generate your binary, you can see the
+[16:11:20]: the full commands printed out in yellow in the above log.
+[16:11:20]: Make sure to inspect the output above, as usually you'll find more error information there
+```
+
