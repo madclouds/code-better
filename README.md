@@ -410,3 +410,7 @@ Check out this together:  https://github.com/fastlane/examples
 
 - Talk about push notification bug together.  Pair Programming!
 
+#### Notes for next meeting
+- Analyize an open source project together
+- Find a list of programming terms and talk through each one.
+
